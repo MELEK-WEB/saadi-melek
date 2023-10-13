@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/saadi-melek/static/css/main.6a8d1b7d.css",
-    "main.js": "/saadi-melek/static/js/main.152d8c6e.js",
+    "main.css": "/saadi-melek/static/css/main.905849b2.css",
+    "main.js": "/saadi-melek/static/js/main.ef1b2972.js",
     "static/js/787.21d17fcb.chunk.js": "/saadi-melek/static/js/787.21d17fcb.chunk.js",
     "static/media/isamira-rec.png": "/saadi-melek/static/media/isamira-rec.28c5d3ff5a80cdd42da2.png",
     "static/media/taekwando.png": "/saadi-melek/static/media/taekwando.41f39a79194650834931.png",
@@ -43,6 +43,7 @@
     "static/media/findem6.png": "/saadi-melek/static/media/findem6.9ff40df44281b0a5efd2.png",
     "static/media/webToApp2.png": "/saadi-melek/static/media/webToApp2.fb0b7205d1e3b295c891.png",
     "static/media/findem.png": "/saadi-melek/static/media/findem.8fdef07604a0ac0f0d93.png",
+    "static/media/melek-1 (1).png": "/saadi-melek/static/media/melek-1 (1).d55f84d3e888069f16eb.png",
     "static/media/sensor3.jpg": "/saadi-melek/static/media/sensor3.51d4d3adb6d6ae6a6121.jpg",
     "static/media/findem7.png": "/saadi-melek/static/media/findem7.1fdb232164a4bcc76e6c.png",
     "static/media/kinder1.png": "/saadi-melek/static/media/kinder1.cbdfb4f54aa59cee3c44.png",
@@ -87,12 +88,12 @@
     "static/media/IOT.svg": "/saadi-melek/static/media/IOT.accb38d00e3efd718ad21f55d068a166.svg",
     "index.html": "/saadi-melek/index.html",
     "static/media/Anglais.svg": "/saadi-melek/static/media/Anglais.914f748e615d6a8fc4a3306c5d5b6f59.svg",
-    "main.6a8d1b7d.css.map": "/saadi-melek/static/css/main.6a8d1b7d.css.map",
-    "main.152d8c6e.js.map": "/saadi-melek/static/js/main.152d8c6e.js.map",
+    "main.905849b2.css.map": "/saadi-melek/static/css/main.905849b2.css.map",
+    "main.ef1b2972.js.map": "/saadi-melek/static/js/main.ef1b2972.js.map",
     "787.21d17fcb.chunk.js.map": "/saadi-melek/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a8d1b7d.css",
-    "static/js/main.152d8c6e.js"
+    "static/css/main.905849b2.css",
+    "static/js/main.ef1b2972.js"
   ]
 }
