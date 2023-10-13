@@ -346,6 +346,7 @@ export const Melek_Data = {
       images: [Education],
       keyWords: ["Spring", "React JS"],
       logo: customLogo,
+      goLive : "https://melek-web.github.io/web-editor/",
       moreDesc:
         " During 24H hackthon Upside Education,we made a web plateform that helps learners for an eazy amd comfortable coding experience",
     },
@@ -435,21 +436,29 @@ export const Melek_Data = {
     ],
     skills: {
       frameworks: [
-        { skill: "Flask", perc: "75%" },
-        { skill: "React", perc: "80%" },
-        { skill: "Node", perc: "80%" },
-        { skill: "Spring", perc: "70%" },
+        { skill: "https://flask.palletsprojects.com/en/3.0.x/_static/flask-vertical.png", name: "Flask" },
+        { skill: "https://nodejs.org/static/images/logo.svg", name: "NodeJs" },
+        { skill: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png", name: "React" },
+        { skill: "https://spring.io/img/spring.svg", name: "Spring" },
+        { skill: "https://mfg.fhstp.ac.at/cms/wp-content/uploads/2022/02/800px-Nextjs-logo.svg_.png", name: "NextJs" },
       ],
       languages: [
-        { skill: "Python", perc: "80%" },
-        { skill: "Javascript", perc: "80%" },
-        { skill: "java", perc: "75%" },
+        { skill: "https://www.python.org/static/community_logos/python-logo.png", name: "Python" },
+        { skill: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png", name: "JavaScript" },
+        { skill: "https://logowik.com/content/uploads/images/731_java.jpg", name: "Java" },
       ],
 
       databases: [
-        { skill: "Mysql", perc: "90%" },
-        { skill: "Mongodb", perc: "90%" },
-        { skill: "Neo4j", perc: "70%" },
+        { skill: "https://farah-chourou.github.io/My_Portfolio/static/media/mysql.f251faee.png", name: "Mysql" },
+        { name: "Mongodb", skill: "https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.jpg" },
+        { name: "Neo4j", skill: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Neo4j-logo_color.png/800px-Neo4j-logo_color.png" },
+      ],
+      others: [
+        { skill: "https://w7.pngwing.com/pngs/627/244/png-transparent-docker-logo-logos-logos-and-brands-icon-thumbnail.png", name: "Docker" },
+        { name: "Prisma", skill: "https://prismalens.vercel.app/header/logo-dark.svg" },
+        { name: "Linux", skill: "https://logopond.com/logos/764befce2161b53b5895108e1e8597d7.png" },
+        { name: "Git", skill: "https://git-scm.com/images/logo@2x.png" },
+
       ],
     },
   },

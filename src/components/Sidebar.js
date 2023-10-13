@@ -9,7 +9,9 @@ import { LogoFacebook } from 'react-ionicons'
 import { LogoDiscord } from 'react-ionicons'
 import { LogoGithub } from 'react-ionicons'
 import { Link } from 'react-ionicons'
+import Melek from "../assets/images/melek/melek-1 (1).png"
 
+import "./sidebar.css"
 import { Melek_Data } from "../utils/util";
 
 import filePDF from "../assets/melekSaadi.pdf"
@@ -36,7 +38,8 @@ export default function Sidebar() {
     <aside className={`sidebar ${ active}`} data-sidebar>  
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src={avatar} alt="Richard hanrick" width="80" />
+          <img src={avatar} alt="Richard hanrick" width="80" className="image-front"/>
+          <div className="avatar-image"></div>
         </figure>
 
         <div className="info-content">

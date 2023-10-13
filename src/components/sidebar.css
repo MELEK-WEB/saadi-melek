@@ -1,0 +1,12 @@
+.hover-animation img {
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .hover-animation img.image-front:hover {
+    opacity: 0;
+    cursor: pointer;
+  }
+  .hover-animation {
+    position:relative;
+  }
