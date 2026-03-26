@@ -139,12 +139,40 @@ import Certif2  from "../assets/images/Projects/Just Me/taekwando.png";
 // **********  *******************
 
 
+// ********** Market-Parts *******************
+import marketparts from "../assets/images/Projects/marketparts/marketparts.png";
+import marketparts2 from "../assets/images/Projects/marketparts/marketparts2.png";
+import marketparts3 from "../assets/images/Projects/marketparts/marketparts3.png";
+import marketpartsImg from "../assets/images/Projects/marketparts/img.png";
+import marketpartsImg1 from "../assets/images/Projects/marketparts/img_1.png";
+
+// ********** Market-Parts *******************
+
+// ********** Nugget-Finder *******************
+import nugget from "../assets/images/Projects/nugget-finder/nugget.png";
+import nugget1 from "../assets/images/Projects/nugget-finder/nugget1.png";
+import nuggetImg from "../assets/images/Projects/nugget-finder/img.png";
+
+// ********** Nugget-Finder *******************
+
+// ********** Feedback-App *******************
+import feedback1 from "../assets/images/Projects/feedback-app/feedback1.png";
+import feedback2 from "../assets/images/Projects/feedback-app/feedback2.png";
+import feedback3 from "../assets/images/Projects/feedback-app/feedback3.png";
+
+// ********** Feedback-App *******************
+
+// ********** Test-Wizard *******************
+import testWizardThumb from "../assets/images/Projects/test-wizard/thumbnail.png";
+
+// ********** Test-Wizard *******************
+
 import customLogo from "../assets/images/Projects/customLogo.png";
 
 export const Melek_Data = {
   about: {
     aboutMe:
-      "I am Melek Saadi, a passionate software engineering student enrolled at ISAMM. Juggling my academic pursuits with a thriving freelancing career in web development and IoT projects, I epitomize versatility. Fueled by creativity, I approach challenges with innovative solutions, embracing a multifaceted approach to tasks at hand.",
+      "Software Engineer with 2+ years of experience building scalable web applications using modern JavaScript frameworks. Specialized in React, Node.js, and real-time systems, with hands-on experience in CI/CD, Docker. Passionate about performance optimization, clean architecture, and AI-powered developer tools.",
     aboutMe2:
       " My commitment to ongoing self-improvement underscores my drive, while my knack for seamless multitasking underscores my proficiency.",
   },
@@ -189,6 +217,59 @@ export const Melek_Data = {
   ],
 
   projects: [
+    {
+      id: 400,
+      type: ["Web dev", "Plateform"],
+      name: "Market-Parts",
+      descreption:
+        "Leading global B2B marketplace for automotive aftermarket parts. Contributed to the development of a global B2B marketplace for automotive aftermarket parts. Built and maintained front-office and back-office features using React and NestJS.",
+      eye_catch: marketparts,
+      images: [marketparts, marketparts2, marketparts3, marketpartsImg, marketpartsImg1],
+      keyWords: ["ClickHouse", "PostgreSQL", "NestJS", "React", "Redis", "Jest", "Docker", "GitHub Actions"],
+      logo: null,
+      moreDesc:
+        "Developed price comparison and market share modules to enhance user decision-making. Participated in system design and development of market analytics and AI-driven features. Implemented and maintained CI/CD pipelines using GitHub Actions and Docker. Collaborated in Agile teams (sprint planning, daily stand-ups, reviews).",
+    },
+    {
+      id: 401,
+      type: ["Web dev", "Game dev"],
+      name: "Nugget-Finder",
+      descreption:
+        "Real-time multiplayer game where players compete to collect the most nuggets. Developed core game mechanics including claim, attack, defend, burst, and round systems.",
+      eye_catch: nugget,
+      images: [nugget, nugget1, nuggetImg],
+      keyWords: ["Node.js", "React", "MongoDB", "Socket.IO", "Redis", "Jest", "Rate Limiter"],
+      logo: null,
+      moreDesc:
+        "Developed CLIs for inviting users and generating nuggets along with managing teams and sessions. Built and maintained real-time session using Web Sockets. Achieved 85%+ test coverage with unit and integration tests. Contributed to organizing student hackathons around the platform.",
+    },
+    {
+      id: 402,
+      type: ["Web dev", "Plateform"],
+      name: "Feedback-App",
+      descreption:
+        "Application for managing employee objectives, feedback, and organizational structure. Developed key features including ambition sheets, feedback workflows, user and department management.",
+      eye_catch: feedback1,
+      images: [feedback1, feedback2, feedback3],
+      keyWords: ["Symfony", "Vue.js", "PostgreSQL", "Redis", "Mercure (SSE)", "Docker", "GitLab CI/CD", "PHPStan"],
+      logo: null,
+      moreDesc:
+        "Implemented a real-time collaborative co-editing system. Applied software design patterns (e.g., Builder pattern) to improve code structure and scalability. Participated in code quality improvements and CI/CD pipelines. Mentored and monitored interns and juniors during the development of the Feedback-App, providing code reviews and technical guidance to ensure project alignment.",
+    },
+    {
+      id: 403,
+      type: ["Web dev", "AI"],
+      name: "Test-Wizard",
+      descreption:
+        "AI-powered tool designed to streamline the creation of unit and integration tests for JavaScript, TypeScript, and PHP projects.",
+      eye_catch: testWizardThumb,
+      images: [],
+      keyWords: ["JavaScript", "Prompt Engineering", "LLMs", "Generative AI", "GPT-4", "Ollama", "AST", "Jest", "GitLab CI/CD", "SonarQube", "Docker"],
+      logo: null,
+      videoUrl: "MxwwW9mwhiA",
+      moreDesc:
+        "Developed a suite of interactive CLI tools to assist developers in generating and structuring tests. Integrated LLMs and prompt engineering techniques to automate test generation.",
+    },
     {
       id: 0,
       type: ["Web dev", "Machine Learning", "IOT"],

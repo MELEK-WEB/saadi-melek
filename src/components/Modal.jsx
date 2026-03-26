@@ -24,12 +24,18 @@ export default function Modal({ Project, active, OnClose }) {
 
         <div className="modal-img-wrapper">
           <figure className="modal-avatar-box">
-            <img
-              src={Project?.logo}
-              alt="Daniel lewis"
-              width="80"
-              data-modal-img
-            />
+            {Project?.logo ? (
+              <img
+                src={Project?.logo}
+                alt={Project?.name}
+                width="80"
+                data-modal-img
+              />
+            ) : (
+              <div style={{ width: "80px", height: "80px", display: "flex", alignItems: "center", justifyContent: "center", background: "hsl(240, 2%, 20%)", borderRadius: "14px", fontSize: "2rem", color: "hsl(45, 100%, 72%)" }}>
+                {Project?.name?.charAt(0)}
+              </div>
+            )}
           </figure>
 
           <img src={iconQt} alt="quote icon" />

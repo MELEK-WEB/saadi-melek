@@ -35,17 +35,18 @@ export default function AboutProject() {
       <article className="about active">
         <header>
           <h2 className="h2 article-title">{Project?.name}</h2>
-          <img
-            src={Project?.logo}
-            alt={Project?.name}
-            height="120"
-            width="120"
-            style={{
-              display: "block",
-              margin: "auto",
-              // Add any additional styles if needed
-            }}
-          />
+          {Project?.logo && (
+            <img
+              src={Project?.logo}
+              alt={Project?.name}
+              height="120"
+              width="120"
+              style={{
+                display: "block",
+                margin: "auto",
+              }}
+            />
+          )}
         </header>
         <br/>
 
@@ -68,6 +69,7 @@ export default function AboutProject() {
           </p>
         </div>
         <br />
+        {Project.images?.length > 0 && (
         <div>
           <Swiper
             style={{
@@ -97,6 +99,23 @@ export default function AboutProject() {
             })}
           </Swiper>
         </div>
+        )}
+
+        {Project.videoUrl && (
+          <div style={{ marginTop: "2rem", textAlign: "center" }}>
+            <h3 className="h3" style={{ color: "white", marginBottom: "1rem" }}>Demo Video</h3>
+            <iframe
+              width="70%"
+              height="400"
+              src={`https://www.youtube.com/embed/${Project.videoUrl}`}
+              title={`${Project.name} Demo`}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style={{ borderRadius: "12px", maxWidth: "800px" }}
+            />
+          </div>
+        )}
       </article>
     </div>
   );

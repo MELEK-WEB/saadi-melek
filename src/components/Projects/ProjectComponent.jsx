@@ -26,7 +26,13 @@ function setActiveFn(project){
                     <EyeOutline color="" />
                   </div>
 
-                  <img src={project.eye_catch} alt={project.eye_catch} loading="lazy" />
+                  {project.eye_catch ? (
+                    <img src={project.eye_catch} alt={project.name} loading="lazy" />
+                  ) : (
+                    <div style={{ width: "100%", height: "200px", display: "flex", alignItems: "center", justifyContent: "center", background: "hsl(240, 2%, 20%)", borderRadius: "16px" }}>
+                      <span style={{ color: "hsl(45, 100%, 72%)", fontSize: "1.2rem", fontWeight: "bold" }}>{project.name}</span>
+                    </div>
+                  )}
                 </figure>
 
                 <h3 className="project-title">{project.name}</h3>
